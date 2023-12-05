@@ -1,0 +1,6 @@
+framework module Pods_QYDebugKit_Tests {
+  umbrella header "Pods-QYDebugKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
