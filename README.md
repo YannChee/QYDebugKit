@@ -17,8 +17,23 @@ QYDebugKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'QYDebugKit'
+  pod 'QYDebugKit', :git => "https://github.com/YannChee/QYDebugKit.git", :configurations => ['Debug']
 ```
+## Usage
+
+```
+#if DEBUG
+#import <QYDebugKit/QYDebugManager.h>
+#endif
+
+#if DEBUG
+    [QYDebugManager.shareInstance initDenugSDKWithStartingPosition:CGPointMake(0, 300) completion:^{
+        NSLog(@"QYDebugManager init Success");
+    }];
+#endif
+
+```
+
 
 ## Author
 
