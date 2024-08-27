@@ -464,7 +464,7 @@
 		099A8E1A0975AF1DDDCA1D32761E0543 /* FHSView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHSView.m; path = Classes/ViewHierarchy/SnapshotExplorer/FHSView.m; sourceTree = "<group>"; };
 		099DFAFCEBC51CEDE9C45BCDC1AB00EA /* FLEXShortcutsSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXShortcutsSection.h; path = Classes/ObjectExplorers/Sections/Shortcuts/FLEXShortcutsSection.h; sourceTree = "<group>"; };
 		09D98FF3718B58C3B4C9E7C3ABF87C01 /* FLEXGlobalsEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXGlobalsEntry.h; path = Classes/GlobalStateExplorers/Globals/FLEXGlobalsEntry.h; sourceTree = "<group>"; };
-		0AE690A0C8C9449EBCB56A1440D28BF8 /* QYDebugManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYDebugManager.h; path = QYDebugKit/Classes/QYDebugManager.h; sourceTree = "<group>"; };
+		0AE690A0C8C9449EBCB56A1440D28BF8 /* QYDebugManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYDebugManager.h; sourceTree = "<group>"; };
 		0C62A0EFDEC4AFAEE53E86DEF47CD88B /* Cocoa+FLEXShortcuts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Cocoa+FLEXShortcuts.h"; path = "Classes/Utility/Categories/Private/Cocoa+FLEXShortcuts.h"; sourceTree = "<group>"; };
 		0CB702472C1825742B2FC8A0C7043EE0 /* FLEXRuntimeSafety.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXRuntimeSafety.m; path = Classes/Utility/Runtime/Objc/FLEXRuntimeSafety.m; sourceTree = "<group>"; };
 		0D4BFEE0DE31D7E277F776CF1011AA7C /* FLEXAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXAlert.h; path = Classes/Utility/FLEXAlert.h; sourceTree = "<group>"; };
@@ -475,7 +475,7 @@
 		0EFBB6904382EC704C58B5419578D90D /* FLEXObjectExplorer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXObjectExplorer.m; path = Classes/ObjectExplorers/FLEXObjectExplorer.m; sourceTree = "<group>"; };
 		0FA77031EFB329FCD58976EA84899247 /* FLEXArgumentInputFontView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputFontView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputFontView.m; sourceTree = "<group>"; };
 		106A98680B40E600EFA37DC37834E36A /* QYDebugKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYDebugKit.debug.xcconfig; sourceTree = "<group>"; };
-		109C94387FE5CC0393D1C9364508655F /* QYDebugManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QYDebugManager.m; path = QYDebugKit/Classes/QYDebugManager.m; sourceTree = "<group>"; };
+		109C94387FE5CC0393D1C9364508655F /* QYDebugManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYDebugManager.m; sourceTree = "<group>"; };
 		10AE69F3F0174780A49AFF9007C1973D /* UIFont+FLEX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+FLEX.h"; path = "Classes/Utility/Categories/UIFont+FLEX.h"; sourceTree = "<group>"; };
 		110CF388103EC181CAA975CD95D92132 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		110EF7AFCDA9766D8C363BD775FA22F6 /* FHSViewSnapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHSViewSnapshot.m; path = Classes/ViewHierarchy/SnapshotExplorer/FHSViewSnapshot.m; sourceTree = "<group>"; };
@@ -487,7 +487,7 @@
 		14B8D92662F162A2F95CDE4DC1615416 /* FLEXTypeEncodingParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXTypeEncodingParser.m; path = Classes/Utility/Runtime/Objc/FLEXTypeEncodingParser.m; sourceTree = "<group>"; };
 		15A1C226A456C57D2BFD8C4D1AE159DE /* FLEXKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXKeyboardToolbar.m; path = Classes/GlobalStateExplorers/RuntimeBrowser/FLEXKeyboardToolbar.m; sourceTree = "<group>"; };
 		1614D0F7F7B7157C093EB0AA070E1BAE /* FLEXArgumentInputDateView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputDateView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputDateView.m; sourceTree = "<group>"; };
-		164783D1B4D97A0945EA069C2E2AFE63 /* QYDebugKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QYDebugKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		164783D1B4D97A0945EA069C2E2AFE63 /* QYDebugKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QYDebugKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		165781D50814F0718896D80569B491BC /* FLEXBundleShortcuts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXBundleShortcuts.h; path = Classes/ObjectExplorers/Sections/Shortcuts/FLEXBundleShortcuts.h; sourceTree = "<group>"; };
 		16BCAF90A00C5DC5491851D4AC877293 /* FLEX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEX.h; path = Classes/FLEX.h; sourceTree = "<group>"; };
 		172FBD4CE2F147182C313C2E886D6664 /* FLEXCarouselCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXCarouselCell.h; path = Classes/Core/Views/Carousel/FLEXCarouselCell.h; sourceTree = "<group>"; };
@@ -527,7 +527,7 @@
 		2BD6014E60FE5A10D7399B84EF26A6C0 /* Pods-QYDebugKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QYDebugKit_Tests"; path = Pods_QYDebugKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDE080CBA7C733A4BF0D9C14C29F39A /* QYHomeViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QYHomeViewController.xib; path = QYDebugKit/Classes/QYHomeViewController.xib; sourceTree = "<group>"; };
 		2CE85EB6D752F27E56D70C2F7F237F82 /* FLEXNetworkCurlLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXNetworkCurlLogger.h; path = Classes/Network/FLEXNetworkCurlLogger.h; sourceTree = "<group>"; };
-		2D2770705DA06169F68295FA548E32BE /* QYEntryWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYEntryWindow.h; path = QYDebugKit/Classes/QYEntryWindow.h; sourceTree = "<group>"; };
+		2D2770705DA06169F68295FA548E32BE /* QYEntryWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYEntryWindow.h; sourceTree = "<group>"; };
 		2D3FA124574A816893603103E1FE5115 /* FLEXActivityViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXActivityViewController.m; path = Classes/GlobalStateExplorers/FileBrowser/FLEXActivityViewController.m; sourceTree = "<group>"; };
 		2E2317101B8828627523427AD72386F4 /* FLEXExplorerToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXExplorerToolbar.m; path = Classes/Toolbar/FLEXExplorerToolbar.m; sourceTree = "<group>"; };
 		2E7DE64BEC3CBABE3EE2AF97BBE395AF /* NSArray+FLEX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+FLEX.h"; path = "Classes/Utility/Categories/NSArray+FLEX.h"; sourceTree = "<group>"; };
@@ -545,7 +545,7 @@
 		35CDC64E515F9460D023E8AC84101C3D /* FLEX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLEX-umbrella.h"; sourceTree = "<group>"; };
 		360F90D501494267A2B9BBA3B39E9C90 /* FLEXFileBrowserController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXFileBrowserController.h; path = Classes/GlobalStateExplorers/FileBrowser/FLEXFileBrowserController.h; sourceTree = "<group>"; };
 		362E35B73CDBFDA68A5E2C683781CB1E /* FLEX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLEX.release.xcconfig; sourceTree = "<group>"; };
-		3684167788683393988A4467493235D2 /* FLEXObjcInternal.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FLEXObjcInternal.mm; path = Classes/Utility/Runtime/Objc/FLEXObjcInternal.mm; sourceTree = "<group>"; };
+		3684167788683393988A4467493235D2 /* FLEXObjcInternal.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = FLEXObjcInternal.mm; path = Classes/Utility/Runtime/Objc/FLEXObjcInternal.mm; sourceTree = "<group>"; };
 		3712B8F9A9C3C2C6C9F36CDF76583F88 /* FLEXGlobalsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXGlobalsViewController.h; path = Classes/GlobalStateExplorers/Globals/FLEXGlobalsViewController.h; sourceTree = "<group>"; };
 		37F3952F8B1722BCBA2E1603445E45D8 /* FLEXArgumentInputDateView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXArgumentInputDateView.h; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputDateView.h; sourceTree = "<group>"; };
 		389FA23CF412B5EA35ADE0B37786F80A /* FLEXArgumentInputStringView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputStringView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputStringView.m; sourceTree = "<group>"; };
@@ -608,7 +608,7 @@
 		5486CA50E23E953456413D1041FF7373 /* FLEXNSDataShortcuts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXNSDataShortcuts.h; path = Classes/ObjectExplorers/Sections/Shortcuts/FLEXNSDataShortcuts.h; sourceTree = "<group>"; };
 		54E534F33D245353CED7F33380120D6C /* FLEXDBQueryRowCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXDBQueryRowCell.h; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXDBQueryRowCell.h; sourceTree = "<group>"; };
 		55224CB828F9AF04EFF2B59EC2B35CDB /* UIPasteboard+FLEX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPasteboard+FLEX.m"; path = "Classes/Utility/Categories/UIPasteboard+FLEX.m"; sourceTree = "<group>"; };
-		556676BE3268B61177879D3C680881F2 /* QYHomeWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYHomeWindow.h; path = QYDebugKit/Classes/QYHomeWindow.h; sourceTree = "<group>"; };
+		556676BE3268B61177879D3C680881F2 /* QYHomeWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYHomeWindow.h; sourceTree = "<group>"; };
 		55C5DFCB5344198B9AE2BA5B0F5BDA94 /* FLEXOSLogController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXOSLogController.h; path = Classes/GlobalStateExplorers/SystemLog/FLEXOSLogController.h; sourceTree = "<group>"; };
 		580084E3B0D219C048AF69466381720C /* FLEXNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXNavigationController.m; path = Classes/Core/Controllers/FLEXNavigationController.m; sourceTree = "<group>"; };
 		581A0D39C6013CE33C312A2A85A3AA4D /* QYBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYBaseViewController.h; path = QYDebugKit/Classes/QYBaseViewController.h; sourceTree = "<group>"; };
@@ -672,7 +672,7 @@
 		7CACF8ACFE7DE8EDE701AE141C5F6C4A /* FLEXHierarchyViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXHierarchyViewController.m; path = Classes/ViewHierarchy/FLEXHierarchyViewController.m; sourceTree = "<group>"; };
 		7CD5A9A63F65763C40E6F9478BDB248D /* FLEXDefaultsContentSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXDefaultsContentSection.m; path = Classes/ObjectExplorers/Sections/FLEXDefaultsContentSection.m; sourceTree = "<group>"; };
 		7DAB6776542B36611022E78DC9218D8F /* FLEXArgumentInputSwitchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXArgumentInputSwitchView.h; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputSwitchView.h; sourceTree = "<group>"; };
-		7DC8C45BE0831C544B4E9CBC4B592251 /* FLEXFirebaseTransaction.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FLEXFirebaseTransaction.mm; path = Classes/Network/FLEXFirebaseTransaction.mm; sourceTree = "<group>"; };
+		7DC8C45BE0831C544B4E9CBC4B592251 /* FLEXFirebaseTransaction.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = FLEXFirebaseTransaction.mm; path = Classes/Network/FLEXFirebaseTransaction.mm; sourceTree = "<group>"; };
 		7E0A47C9B446B646951897E30239D4EE /* FLEXColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXColor.m; path = Classes/Utility/FLEXColor.m; sourceTree = "<group>"; };
 		7F3A30C39D46B59337678CEAF6B45F0B /* FLEXNetworkCurlLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXNetworkCurlLogger.m; path = Classes/Network/FLEXNetworkCurlLogger.m; sourceTree = "<group>"; };
 		80010C2ED98C0FECF70F3002ACDB1987 /* FLEXManager+Extensibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FLEXManager+Extensibility.h"; path = "Classes/Manager/FLEXManager+Extensibility.h"; sourceTree = "<group>"; };
@@ -723,7 +723,7 @@
 		9D2C38CE8A3C58E7391830A3057420D4 /* FLEXArgumentInputViewFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputViewFactory.m; path = Classes/Editing/FLEXArgumentInputViewFactory.m; sourceTree = "<group>"; };
 		9D63942884C7A03D9F0D9759D3653CC0 /* FLEXLiveObjectsController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXLiveObjectsController.m; path = Classes/GlobalStateExplorers/FLEXLiveObjectsController.m; sourceTree = "<group>"; };
 		9D8BE8901E10276B920E313864A21E28 /* FLEXArgumentInputTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputTextView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputTextView.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E2463386FB617A52055396EAB4981C7 /* FLEXMultiColumnTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXMultiColumnTableView.m; path = Classes/GlobalStateExplorers/DatabaseBrowser/FLEXMultiColumnTableView.m; sourceTree = "<group>"; };
 		9E86837CE3499B16025377FAF53912EF /* FLEXArgumentInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputView.m; sourceTree = "<group>"; };
 		9FBF068B093CFF81AC0FC35AF077271B /* FLEXMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXMacros.h; path = Classes/Utility/FLEXMacros.h; sourceTree = "<group>"; };
@@ -741,11 +741,11 @@
 		A5F387BE4DAF9459C59B0FE23C89C498 /* FLEXSystemLogMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXSystemLogMessage.m; path = Classes/GlobalStateExplorers/SystemLog/FLEXSystemLogMessage.m; sourceTree = "<group>"; };
 		A66F881A0C0E3A798063653AF347CF0F /* FLEXLiveObjectsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXLiveObjectsController.h; path = Classes/GlobalStateExplorers/FLEXLiveObjectsController.h; sourceTree = "<group>"; };
 		A6D159978E6301BF5B80ABC076B7FBA2 /* Pods-QYDebugKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QYDebugKit_Example"; path = Pods_QYDebugKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7E5ED874D9D7D1DADB1B83B73DE48BB /* flex_fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; name = flex_fishhook.c; path = Classes/Utility/Runtime/flex_fishhook.c; sourceTree = "<group>"; };
+		A7E5ED874D9D7D1DADB1B83B73DE48BB /* flex_fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = flex_fishhook.c; path = Classes/Utility/Runtime/flex_fishhook.c; sourceTree = "<group>"; };
 		A8215B98E77A7B24AE067AFA57D6EAB2 /* FLEXObjectInfoSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXObjectInfoSection.h; path = Classes/ObjectExplorers/Sections/FLEXObjectInfoSection.h; sourceTree = "<group>"; };
 		A8C683058B25FF46B625C380386A3A6A /* FLEXRuntime+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FLEXRuntime+Compare.m"; path = "Classes/Utility/Categories/FLEXRuntime+Compare.m"; sourceTree = "<group>"; };
 		A96243336CA03FA320AD38B62A2FB051 /* FLEXImagePreviewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXImagePreviewViewController.h; path = Classes/ViewHierarchy/FLEXImagePreviewViewController.h; sourceTree = "<group>"; };
-		A9D5073EFF3C1648D2BB055AFD82B0CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A9D5073EFF3C1648D2BB055AFD82B0CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AA8F0795346CBE3B69B76C4AE58E37FB /* QYBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QYBaseViewController.m; path = QYDebugKit/Classes/QYBaseViewController.m; sourceTree = "<group>"; };
 		AAA6E92AEBA5D2246C58FADCF7E8BE0C /* FLEXHierarchyTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXHierarchyTableViewCell.h; path = Classes/ViewHierarchy/TreeExplorer/FLEXHierarchyTableViewCell.h; sourceTree = "<group>"; };
 		AAA8DC15E846A13F15AD6FBBBA37E6D1 /* FLEXBookmarkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXBookmarkManager.h; path = Classes/ExplorerInterface/Bookmarks/FLEXBookmarkManager.h; sourceTree = "<group>"; };
@@ -771,7 +771,7 @@
 		B2EFCDFF92026A85187A37D743829A96 /* FLEXObjectExplorerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXObjectExplorerViewController.m; path = Classes/ObjectExplorers/FLEXObjectExplorerViewController.m; sourceTree = "<group>"; };
 		B32C4907F722C8D38B164A865423B520 /* FLEXArgumentInputObjectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputObjectView.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputObjectView.m; sourceTree = "<group>"; };
 		B3919B1C14B35BEFB8E1D4AA03474281 /* NSObject+FLEX_Reflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FLEX_Reflection.h"; path = "Classes/Utility/Categories/NSObject+FLEX_Reflection.h"; sourceTree = "<group>"; };
-		B4D9E7A8256459B37DA48BFB761E79B2 /* FLEXSwiftInternal.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FLEXSwiftInternal.mm; path = Classes/Utility/Runtime/Objc/FLEXSwiftInternal.mm; sourceTree = "<group>"; };
+		B4D9E7A8256459B37DA48BFB761E79B2 /* FLEXSwiftInternal.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = FLEXSwiftInternal.mm; path = Classes/Utility/Runtime/Objc/FLEXSwiftInternal.mm; sourceTree = "<group>"; };
 		B71601A9BDB11C106A68D83347289B78 /* FLEXManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXManager.h; path = Classes/Manager/FLEXManager.h; sourceTree = "<group>"; };
 		B770EE66E9F731A694B2DAB2500C7CB6 /* FLEXSwiftInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXSwiftInternal.h; path = Classes/Utility/Runtime/Objc/FLEXSwiftInternal.h; sourceTree = "<group>"; };
 		B7B192335AD04634F9A12444C110A85E /* UIGestureRecognizer+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+Blocks.m"; path = "Classes/Utility/Categories/UIGestureRecognizer+Blocks.m"; sourceTree = "<group>"; };
@@ -784,10 +784,10 @@
 		BA0B2F99BBC9AEFE727DA651309B4BC9 /* FLEXActivityViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXActivityViewController.h; path = Classes/GlobalStateExplorers/FileBrowser/FLEXActivityViewController.h; sourceTree = "<group>"; };
 		BA7F1700E53484EC5FCAF2B52DB320C4 /* FLEXObjectExplorerFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXObjectExplorerFactory.m; path = Classes/ObjectExplorers/FLEXObjectExplorerFactory.m; sourceTree = "<group>"; };
 		BB5ED49CD4919D84A5EEB3232F09BA1C /* FLEXShortcutsFactory+Defaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FLEXShortcutsFactory+Defaults.m"; path = "Classes/ObjectExplorers/Sections/Shortcuts/FLEXShortcutsFactory+Defaults.m"; sourceTree = "<group>"; };
-		BC07E1C8446FA1502DF4418DEC734384 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BC07E1C8446FA1502DF4418DEC734384 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BC56F98B14FBC6828D6B7BF6F95CC3DB /* FLEXMutableListSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXMutableListSection.m; path = Classes/ObjectExplorers/Sections/FLEXMutableListSection.m; sourceTree = "<group>"; };
 		BCCECCAFAF6E033C65A08AC28BCF4619 /* FLEXObjcRuntimeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXObjcRuntimeViewController.h; path = Classes/GlobalStateExplorers/RuntimeBrowser/FLEXObjcRuntimeViewController.h; sourceTree = "<group>"; };
-		BD17F6144ED66C360E692243EA50E083 /* QYHomeWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QYHomeWindow.m; path = QYDebugKit/Classes/QYHomeWindow.m; sourceTree = "<group>"; };
+		BD17F6144ED66C360E692243EA50E083 /* QYHomeWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYHomeWindow.m; sourceTree = "<group>"; };
 		BDD647740B106C3DC4AAE808FCCBA057 /* FLEXViewControllersViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXViewControllersViewController.h; path = Classes/ExplorerInterface/FLEXViewControllersViewController.h; sourceTree = "<group>"; };
 		BE1092984A7A5FD71546CE66B7B99E14 /* NSTimer+FLEX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+FLEX.m"; path = "Classes/Utility/Categories/NSTimer+FLEX.m"; sourceTree = "<group>"; };
 		BE82818CD22E689BDC19E5AAFB414C98 /* FLEXTabList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXTabList.h; path = Classes/ExplorerInterface/Tabs/FLEXTabList.h; sourceTree = "<group>"; };
@@ -852,7 +852,7 @@
 		E733A948F9CDA9A7E5107C22F530EFDC /* FLEXTabsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXTabsViewController.h; path = Classes/ExplorerInterface/Tabs/FLEXTabsViewController.h; sourceTree = "<group>"; };
 		E787A60235B5822141E62E7DDADB062F /* FLEXMethodCallingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXMethodCallingViewController.h; path = Classes/Editing/FLEXMethodCallingViewController.h; sourceTree = "<group>"; };
 		E7BC85E08062551648DAD53FB6303606 /* FLEXObjectRef.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXObjectRef.m; path = Classes/GlobalStateExplorers/FLEXObjectRef.m; sourceTree = "<group>"; };
-		E95D4E0F1B2337E58CED38C57320EC50 /* QYEntryWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QYEntryWindow.m; path = QYDebugKit/Classes/QYEntryWindow.m; sourceTree = "<group>"; };
+		E95D4E0F1B2337E58CED38C57320EC50 /* QYEntryWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYEntryWindow.m; sourceTree = "<group>"; };
 		E977AB4EB46B899584304F82E1646B86 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		EBDF63149C4729DDD129FB01C7A5C99F /* FLEXNetworkMITMViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXNetworkMITMViewController.h; path = Classes/Network/FLEXNetworkMITMViewController.h; sourceTree = "<group>"; };
 		EBE69693258BCF9D992D73DFE304E46E /* FLEXSystemLogMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXSystemLogMessage.h; path = Classes/GlobalStateExplorers/SystemLog/FLEXSystemLogMessage.h; sourceTree = "<group>"; };
@@ -931,6 +931,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033B1A622C7DB11E008EEAA0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0AE690A0C8C9449EBCB56A1440D28BF8 /* QYDebugManager.h */,
+				109C94387FE5CC0393D1C9364508655F /* QYDebugManager.m */,
+				2D2770705DA06169F68295FA548E32BE /* QYEntryWindow.h */,
+				E95D4E0F1B2337E58CED38C57320EC50 /* QYEntryWindow.m */,
+				556676BE3268B61177879D3C680881F2 /* QYHomeWindow.h */,
+				BD17F6144ED66C360E692243EA50E083 /* QYHomeWindow.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		4F852B4B276CF759C84AB4EC6FA4D98F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -1439,7 +1452,6 @@
 				6E0B2E7AC4E81ED269519B37CECCB1EF /* UIView+FLEX_Layout.m */,
 				BBF2172BA7871E1B729E15585839EA37 /* Support Files */,
 			);
-			name = FLEX;
 			path = FLEX;
 			sourceTree = "<group>";
 		};
@@ -1455,17 +1467,12 @@
 		EEB0B4414989A286F9843658F182F37A /* QYDebugKit */ = {
 			isa = PBXGroup;
 			children = (
+				033B1A622C7DB11E008EEAA0 /* Main */,
 				581A0D39C6013CE33C312A2A85A3AA4D /* QYBaseViewController.h */,
 				AA8F0795346CBE3B69B76C4AE58E37FB /* QYBaseViewController.m */,
-				0AE690A0C8C9449EBCB56A1440D28BF8 /* QYDebugManager.h */,
-				109C94387FE5CC0393D1C9364508655F /* QYDebugManager.m */,
-				2D2770705DA06169F68295FA548E32BE /* QYEntryWindow.h */,
-				E95D4E0F1B2337E58CED38C57320EC50 /* QYEntryWindow.m */,
 				3F9D547D3C256E66A65A97367FEFBEBC /* QYHomeViewController.h */,
 				73AF67DAA422687B16E8E3E22226963B /* QYHomeViewController.m */,
 				2BDE080CBA7C733A4BF0D9C14C29F39A /* QYHomeViewController.xib */,
-				556676BE3268B61177879D3C680881F2 /* QYHomeWindow.h */,
-				BD17F6144ED66C360E692243EA50E083 /* QYHomeWindow.m */,
 				7810E00FCCB609419B3BAA4B6FF06243 /* QYNavigationController.h */,
 				DAF7F311FC6610C900CFA3F5A43B89A3 /* QYNavigationController.m */,
 				93A05F88E2A3E5A1AB296E1AA0894D93 /* QYStatusBarViewController.h */,
@@ -2329,8 +2336,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -52,12 +52,18 @@
 }
 
 - (void)show{
-    if (!self.rootViewController) {
+    if (self.rootViewController.childViewControllers.count == 0) {
         QYHomeViewController *vc = [[QYHomeViewController alloc] init];
         [self setRootVc:vc];
     }
    
     self.hidden = NO;
+    QYNavigationController *nav = (QYNavigationController *)self.rootViewController;
+//    [nav.childViewControllers performSelector:@selector(viewDidAppear:)];
+    for (UIViewController *vc in nav.childViewControllers) {
+        [vc viewDidAppear:NO];
+    }
+
 }
 
 
@@ -65,8 +71,13 @@
     if (self.rootViewController.presentedViewController) {
         [self.rootViewController.presentedViewController dismissViewControllerAnimated:NO completion:nil];
     }
-//    [self setRootVc:nil];
+
     self.hidden = YES;
+    QYNavigationController *nav = (QYNavigationController *)self.rootViewController;
+//    [nav.childViewControllers performSelector:@selector(viewDidDisappear:)];
+    for (UIViewController *vc in nav.childViewControllers) {
+        [vc viewDidDisappear:NO];
+    }
 }
 
 

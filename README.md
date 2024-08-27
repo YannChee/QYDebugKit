@@ -21,7 +21,7 @@ it, simply add the following line to your Podfile:
 ```
 ## Usage
 
-##### Objective-C usage
+##### Objective-C initialize
 
 ```
 #if DEBUG
@@ -36,7 +36,7 @@ it, simply add the following line to your Podfile:
 
 ```
 
-#### swift usage
+#### swift initialize
 ```
 #if DEBUG
 import QYDebugKit
@@ -48,6 +48,11 @@ QYDebugManager.shareInstance().initDenugSDK(withStartingPosition: CGPointMake(0,
             
 }
 #endif
+```
+
+#### log
+```
+[QYDebugManager.shareInstance logEventName:@"logEventName" content:@"content"];
 ```
 
 

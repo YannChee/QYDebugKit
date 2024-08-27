@@ -34,10 +34,10 @@
 
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+int a = 0;
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [QYDebugManager.shareInstance logEventName:@(a++).stringValue content:@""];
 }
 
 @end
