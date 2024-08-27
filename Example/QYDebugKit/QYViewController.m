@@ -7,6 +7,10 @@
 //
 
 #import "QYViewController.h"
+#if DEBUG
+#import <QYDebugKit/QYDebugManager.h>
+#endif
+
 
 @interface QYViewController ()
 
@@ -18,6 +22,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = UIColor.systemPinkColor;
+    
+    
+
+#if DEBUG
+    [QYDebugManager.shareInstance initDenugSDKWithStartingPosition:CGPointMake(0, 300) completion:^{
+        NSLog(@"QYDebugManager init Success");
+    }];
+#endif
+
 }
 
 - (void)didReceiveMemoryWarning

@@ -9,6 +9,10 @@
 #import "QYNavigationController.h"
 #import "QYHomeViewController.h"
 
+@interface QYHomeWindow ()
+
+@end
+
 @implementation QYHomeWindow
 
 
@@ -48,9 +52,11 @@
 }
 
 - (void)show{
-    QYHomeViewController *vc = [[QYHomeViewController alloc] init];
-    [self setRootVc:vc];
-    
+    if (!self.rootViewController) {
+        QYHomeViewController *vc = [[QYHomeViewController alloc] init];
+        [self setRootVc:vc];
+    }
+   
     self.hidden = NO;
 }
 
@@ -59,7 +65,7 @@
     if (self.rootViewController.presentedViewController) {
         [self.rootViewController.presentedViewController dismissViewControllerAnimated:NO completion:nil];
     }
-    [self setRootVc:nil];
+//    [self setRootVc:nil];
     self.hidden = YES;
 }
 

@@ -32,11 +32,12 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'QYDebugKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'QYDebugKit' => ['QYDebugKit/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'QYDebugKit' => ['QYDebugKit/Assets/*.{xib,png,json}']
+   }
+  
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'FLEX'
 end

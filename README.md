@@ -1,6 +1,6 @@
 # QYDebugKit
 
-[![CI Status](https://img.shields.io/travis/YannChee/QYDebugKit.svg?style=flat)](https://travis-ci.org/YannChee/QYDebugKit)
+[![CI Status](https://img.shields.io/travis/星影/QYDebugKit.svg?style=flat)](https://travis-ci.org/星影/QYDebugKit)
 [![Version](https://img.shields.io/cocoapods/v/QYDebugKit.svg?style=flat)](https://cocoapods.org/pods/QYDebugKit)
 [![License](https://img.shields.io/cocoapods/l/QYDebugKit.svg?style=flat)](https://cocoapods.org/pods/QYDebugKit)
 [![Platform](https://img.shields.io/cocoapods/p/QYDebugKit.svg?style=flat)](https://cocoapods.org/pods/QYDebugKit)
@@ -17,27 +17,12 @@ QYDebugKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-  pod 'QYDebugKit', :git => "https://github.com/YannChee/QYDebugKit.git", :configurations => ['Debug']
+pod 'QYDebugKit'
 ```
-## Usage
-
-```
-#if DEBUG
-#import <QYDebugKit/QYDebugManager.h>
-#endif
-
-#if DEBUG
-    [QYDebugManager.shareInstance initDenugSDKWithStartingPosition:CGPointMake(0, 300) completion:^{
-        NSLog(@"QYDebugManager init Success");
-    }];
-#endif
-
-```
-
 
 ## Author
 
-YannChee, yannchee@163.com
+星影, yannchee@163.com
 
 ## License
 

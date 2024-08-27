@@ -2,8 +2,8 @@
 //  main.m
 //  QYDebugKit
 //
-//  Created by YannChee on 12/05/2023.
-//  Copyright (c) 2023 YannChee. All rights reserved.
+//  Created by 星影 on 08/26/2024.
+//  Copyright (c) 2024 星影. All rights reserved.
 //
 
 @import UIKit;

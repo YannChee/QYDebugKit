@@ -1,7 +1,7 @@
 {
   "name": "QYDebugKit",
   "version": "0.1.0",
-  "summary": "A short description of QYDebugKit.",
+  "summary": "Custom print an iOS app logs to the screen",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/YannChee/QYDebugKit",
   "license": {
@@ -16,7 +16,17 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
-  "source_files": "QYDebugKit/Classes/**/*"
+  "source_files": "QYDebugKit/Classes/**/*",
+  "resource_bundles": {
+    "QYDebugKit": [
+      "QYDebugKit/Assets/*.{xib,png,json}"
+    ]
+  },
+  "dependencies": {
+    "FLEX": [
+
+    ]
+  }
 }
