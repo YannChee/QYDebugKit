@@ -12,11 +12,11 @@
 
 #import "QYLogEventController.h"
 #import "QYLogEventManager.h"
-#import "QYBaseViewController.h"
 #import "QYDebugManager.h"
 #import "QYEntryWindow.h"
-#import "QYHomeViewController.h"
 #import "QYHomeWindow.h"
+#import "QYBaseViewController.h"
+#import "QYHomeViewController.h"
 #import "QYNavigationController.h"
 #import "QYStatusBarViewController.h"
 

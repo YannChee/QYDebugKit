@@ -1,6 +1,6 @@
 {
   "name": "QYDebugKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Custom print an iOS app logs to the screen",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/YannChee/QYDebugKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/YannChee/QYDebugKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "11.0"
