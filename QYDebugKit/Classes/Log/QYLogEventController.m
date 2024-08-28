@@ -53,20 +53,22 @@
 - (UITextView *)textview {
     if (!_textview) {
 //        CGFloat y = CGRectGetMaxY(self.navigationController.navigationBar.frame);
-        UITextView *textview =  [[UITextView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
-        textview.backgroundColor=[UIColor greenColor]; //设置背景色
-        textview.scrollEnabled = true;    //设置当文字超过视图的边框时是否允许滑动，默认为“YES”
-        textview.editable = NO;        //设置是否允许编辑内容，默认为“YES”
-        textview.delegate = self;       //设置代理方法的实现类
-        textview.font=[UIFont systemFontOfSize:18.0]; //设置字体名字和字体大小;
-        textview.returnKeyType = UIReturnKeyDefault;//设置return键的类型
-        textview.keyboardType = UIKeyboardTypeDefault;//设置键盘类型一般为默认
-        textview.textAlignment = NSTextAlignmentLeft; //文本显示的位置默认为居左
-        textview.dataDetectorTypes = UIDataDetectorTypeAll; //显示数据类型的连接模式（如电话号码、网址、地址等）
-        textview.textColor = [UIColor blackColor];// 设置显示文字颜色
-        textview.text = @"埋点事件";//设置显示的文本内容
+        UITextView *textView =  [[UITextView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
+        textView.backgroundColor=[UIColor greenColor]; //设置背景色
+        textView.scrollEnabled = true;    //设置当文字超过视图的边框时是否允许滑动，默认为“YES”
+        textView.editable = NO;        //设置是否允许编辑内容，默认为“YES”
+        textView.delegate = self;       //设置代理方法的实现类
+        textView.font=[UIFont systemFontOfSize:18.0]; //设置字体名字和字体大小;
+        textView.returnKeyType = UIReturnKeyDefault;//设置return键的类型
+        textView.keyboardType = UIKeyboardTypeDefault;//设置键盘类型一般为默认
+        textView.textAlignment = NSTextAlignmentLeft; //文本显示的位置默认为居左
+        textView.dataDetectorTypes = UIDataDetectorTypeAll; //显示数据类型的连接模式（如电话号码、网址、地址等）
+        textView.textColor = [UIColor blackColor];// 设置显示文字颜色
+        // 设置UITextView的内容inset
+        textView.textContainerInset = UIEdgeInsetsMake(0, 0, 100, 0); // 上、左、下、右插入
+
         
-        _textview = textview;
+        _textview = textView;
     }
     return _textview;
 }
