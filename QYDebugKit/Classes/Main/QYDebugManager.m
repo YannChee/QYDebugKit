@@ -8,6 +8,7 @@
 #import "QYDebugManager.h"
 #import "QYEntryWindow.h"
 #import "QYLogEventManager.h"
+#import <YYModel/YYModel.h>
 
 @interface QYDebugManager()
 
@@ -67,9 +68,13 @@
   
 }
 
+- (void)logEventName:(NSString *)eventName paramDict:(NSDictionary *)paramDict {
+    NSString *json = paramDict.yy_modelDescription;
+    [self.logEventManager saveEventName:eventName content:json];
+}
 
 - (void)logEventName:(NSString *)eventName content:(NSString *)content {
-    [self.logEventManager saveEventName:eventName content:content];
+    [self.logEventManager saveEventName:eventName content:content.yy_modelDescription];
 }
 
 

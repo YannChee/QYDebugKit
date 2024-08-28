@@ -23,6 +23,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)initDenugSDKWithStartingPosition:(CGPoint)position completion:(void(^)(void))completion;
 
 
+/** 打印日志 */
+- (void)logEventName:(NSString *)eventName paramDict:(NSDictionary *)paramDict;
 - (void)logEventName:(NSString *)eventName content:(NSString *)content;
 
 @end

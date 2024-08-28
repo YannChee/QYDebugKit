@@ -37,7 +37,8 @@
 
 int a = 0;
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    [QYDebugManager.shareInstance logEventName:@(a++).stringValue content:@""];
+//    [QYDebugManager.shareInstance logEventName:@(a++).stringValue content:@""];
+    [QYDebugManager.shareInstance logEventName:@(a++).stringValue paramDict:@{@"count" : @(a)}];
 }
 
 @end
