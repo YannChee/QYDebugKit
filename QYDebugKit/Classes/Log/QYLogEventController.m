@@ -11,7 +11,6 @@
 
 @interface QYLogEventController () <UITextViewDelegate>
 
-@property(nonatomic, strong) UIStackView *stackView;
 @property(nonatomic, strong) UITextView *textview;
 
 
@@ -24,21 +23,16 @@
     [super viewDidLoad];
     
     
+    // 创建一个UIBarButtonItem
+    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"清空log"
+                                                                    style:UIBarButtonItemStylePlain
+                                                                   target:self
+                                                                   action:@selector(clearLog)];
     
+    // 将UIBarButtonItem设置为导航栏的右侧按钮
+    self.navigationItem.rightBarButtonItem = rightButton;
     
     [self.view addSubview:self.textview];
-    [self.view addSubview:self.stackView];
-    self.stackView.frame = CGRectMake(0, CGRectGetMaxY(self.textview.frame), self.view.bounds.size.width, 100);
-    
-    UIButton *btn = [[UIButton alloc] init];
-    [btn setTitle:@"清空log" forState:UIControlStateNormal];
-    [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-    btn.titleLabel.font = [UIFont systemFontOfSize:14];
-    btn.backgroundColor = UIColor.orangeColor;
-    [btn addTarget:self action:@selector(clearLog) forControlEvents:UIControlEventTouchUpInside];
-    
-    [self.stackView addArrangedSubview:btn];
-    
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -54,22 +48,12 @@
     self.textview.text = contenStr;
 }
 
-- (UIStackView *)stackView {
-    if (!_stackView) {
-        UIStackView *stackView = [[UIStackView alloc] initWithFrame:UIScreen.mainScreen.bounds];
-        stackView.axis = UILayoutConstraintAxisVertical;
-        stackView.distribution = UIStackViewDistributionFillEqually;
-        stackView.alignment = UIStackViewAlignmentFill;
-        stackView.spacing = 5;
-        stackView.backgroundColor = UIColor.whiteColor;
-        _stackView = stackView;
-    }
-    return _stackView;
-}
+
 
 - (UITextView *)textview {
     if (!_textview) {
-        UITextView *textview =  [[UITextView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height - 100)];
+//        CGFloat y = CGRectGetMaxY(self.navigationController.navigationBar.frame);
+        UITextView *textview =  [[UITextView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
         textview.backgroundColor=[UIColor greenColor]; //设置背景色
         textview.scrollEnabled = true;    //设置当文字超过视图的边框时是否允许滑动，默认为“YES”
         textview.editable = NO;        //设置是否允许编辑内容，默认为“YES”
@@ -87,3 +71,25 @@
     return _textview;
 }
 @end
+
+//- (UIStackView *)stackView {
+//    if (!_stackView) {
+//        UIStackView *stackView = [[UIStackView alloc] initWithFrame:UIScreen.mainScreen.bounds];
+//        stackView.axis = UILayoutConstraintAxisVertical;
+//        stackView.distribution = UIStackViewDistributionFillEqually;
+//        stackView.alignment = UIStackViewAlignmentFill;
+//        stackView.spacing = 5;
+//        stackView.backgroundColor = UIColor.whiteColor;
+//        _stackView = stackView;
+//    }
+//    return _stackView;
+//}
+//    [self.view addSubview:self.stackView];
+//    self.stackView.frame = CGRectMake(0, CGRectGetMaxY(self.textview.frame), self.view.bounds.size.width, 100);
+//
+//    UIButton *btn = [[UIButton alloc] init];
+//    [btn setTitle:@"清空log" forState:UIControlStateNormal];
+//    [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+//    btn.titleLabel.font = [UIFont systemFontOfSize:14];
+//    btn.backgroundColor = UIColor.orangeColor;
+//    [btn addTarget:self action:@selector(clearLog) forControlEvents:UIControlEventTouchUpInside];

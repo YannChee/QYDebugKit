@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "星影";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 423792HNP6;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -498,6 +501,7 @@
 			baseConfigurationReference = EE4B1897037A060E41622523 /* Pods-QYDebugKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 423792HNP6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QYDebugKit/QYDebugKit-Prefix.pch";
 				INFOPLIST_FILE = "QYDebugKit/QYDebugKit-Info.plist";
@@ -519,6 +523,7 @@
 			baseConfigurationReference = 19EBB5A5D237CD33C8DF6E2C /* Pods-QYDebugKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 423792HNP6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QYDebugKit/QYDebugKit-Prefix.pch";
 				INFOPLIST_FILE = "QYDebugKit/QYDebugKit-Info.plist";
