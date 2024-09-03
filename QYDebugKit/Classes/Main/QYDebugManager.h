@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSArray<UIButton *> *)customFunctionButtons;
 
-- (void)initDenugSDKWithStartingPosition:(CGPoint)position customFunctionButtons:( NSArray<UIButton *> * _Nullable )btnsArr completion:(void(^)(void))completion;
+- (void)initDenugSDKWithStartingPosition:(CGPoint)position customFunctionButtons:( NSArray<UIButton *> * _Nullable )btnsArr completion:(void(^ _Nullable)(void))completion;
 - (void)exit;
 
 /** 打印日志 */
