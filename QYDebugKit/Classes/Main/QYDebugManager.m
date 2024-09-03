@@ -10,6 +10,8 @@
 #import "QYLogEventManager.h"
 #import <YYModel/YYModel.h>
 
+
+static NSArray<UIButton *> *customFuctionButtonsArr;
 @interface QYDebugManager()
 
 @property (nonatomic, strong) QYEntryWindow *entryWindow;
@@ -43,31 +45,36 @@
 
 }
 
+- (void)exit {
+    [self.entryWindow close];
+    self.entryWindow = nil;
+}
 
 
-- (void)initDenugSDKWithStartingPosition:(CGPoint)position completion:(void(^)(void))completion {
+- (void)initDenugSDKWithStartingPosition:(CGPoint)position customFunctionButtons:(NSArray<UIButton *> *)btnsArr completion:(void(^)(void))completion {
+    [self.class setupCustomFunctionButtons:btnsArr];
     _startingPosition = position;
     //保证install只执行一次
     if (self.isInitialized) {
         return;
     }
     self.isInitialized = YES;
-//    for (int i=0; i<_startPlugins.count; i++) {
-//        NSString *pluginName = _startPlugins[i];
-//        Class pluginClass = NSClassFromString(pluginName);
-//        id<DoraemonStartPluginProtocol> plugin = [[pluginClass alloc] init];
-//        if (plugin) {
-//            [plugin startPluginDidLoad];
-//        }
-//    }
-
-    
     completion();
 
     [self initEntry:self.startingPosition];
   
 }
 
++ (void)setupCustomFunctionButtons:(NSArray<UIButton *> *)btnsArr {
+    customFuctionButtonsArr = btnsArr;
+}
+
++ (NSArray<UIButton *> *)customFunctionButtons {
+    return customFuctionButtonsArr;
+}
+
+
+#pragma mark - log
 - (void)logEventName:(NSString *)eventName paramDict:(NSDictionary *)paramDict {
     NSString *json = paramDict.yy_modelDescription;
     [self.logEventManager saveEventName:eventName content:json];

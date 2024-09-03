@@ -27,13 +27,25 @@
     
 
 #if DEBUG
-    [QYDebugManager.shareInstance initDenugSDKWithStartingPosition:CGPointMake(0, 300) completion:^{
+    UIButton* btn = [[UIButton alloc] initWithFrame:CGRectZero];
+    btn.backgroundColor = [UIColor yellowColor];
+    [btn setTitle:@"测试Btn" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    btn.titleLabel.font = [UIFont systemFontOfSize:12];
+    btn.layer.cornerRadius = 24.;
+    [btn addTarget:self action:@selector(test) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    [QYDebugManager.shareInstance initDenugSDKWithStartingPosition:CGPointMake(0, 300) customFunctionButtons:@[btn] completion:^{
         NSLog(@"QYDebugManager init Success");
     }];
 #endif
 
 }
 
+- (void)test {
+    
+}
 
 int a = 0;
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{

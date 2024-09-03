@@ -52,7 +52,7 @@
 
 - (UITextView *)textview {
     if (!_textview) {
-//        CGFloat y = CGRectGetMaxY(self.navigationController.navigationBar.frame);
+
         UITextView *textView =  [[UITextView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
         textView.backgroundColor=[UIColor greenColor]; //设置背景色
         textView.scrollEnabled = true;    //设置当文字超过视图的边框时是否允许滑动，默认为“YES”

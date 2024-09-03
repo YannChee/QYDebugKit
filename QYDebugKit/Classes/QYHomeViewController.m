@@ -10,11 +10,14 @@
 #import "QYDebugManager.h"
 #import "QYLogEventController.h"
 #import "FLEXManager.h"
+#import "QYDebugManager.h"
 
 
 @interface QYHomeViewController ()
 
 @property(nonatomic, strong) UIStackView *stackView;
+
+@property(nonatomic, strong) UIButton *closeBtn;
 
 @end
 
@@ -26,11 +29,20 @@
     self.view.backgroundColor = UIColor.greenColor;
     
     [self.view addSubview:self.stackView];
+    [self.view addSubview:self.closeBtn];
+    [self setupFunctionButtons];
+}
+
+- (void)setupFunctionButtons {
+    NSMutableArray *tempArr = [NSMutableArray array];
+    [tempArr addObject:[self.class creatBtnWithTitle:@"日志打印页面" tag:0 target:self]];
+    [tempArr addObject:[self.class creatBtnWithTitle:@"veiw检查 开关" tag:1 target:self]];
+    [tempArr addObjectsFromArray:QYDebugManager.customFunctionButtons];
     
-    
-   
-    [self.stackView addArrangedSubview:[self.class creatBtnWithTitle:@"日志打印页面" tag:0 target:self]];
-    [self.stackView addArrangedSubview:[self.class creatBtnWithTitle:@"flex 开关" tag:1 target:self]];
+    for (NSInteger i = 0; i < tempArr.count; i++) {
+        UIButton *btn = tempArr[i];
+        [self.stackView addArrangedSubview:btn];
+    }
 }
 
 + (UIButton *)creatBtnWithTitle:(NSString *)btnTitle tag:(NSUInteger)tag target:(nullable id)target{
@@ -67,13 +79,20 @@
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     
+    CGFloat btnHeight = 44;
+    CGFloat margin = 10;
+    CGFloat stackViewHeight = self.stackView.arrangedSubviews.count * (btnHeight + margin);
     CGRect tempFrame = self.view.bounds;
-    self.stackView.frame = CGRectMake(0, 44, tempFrame.size.width, 200);
+    self.stackView.frame = CGRectMake(0, 88, tempFrame.size.width, stackViewHeight);
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
+}
+
+- (void)exit {
+    [QYDebugManager.shareInstance exit];
 }
 
 - (UIStackView *)stackView {
@@ -87,5 +106,17 @@
     return _stackView;
 }
 
+- (UIButton *)closeBtn {
+    if (!_closeBtn) {
+        _closeBtn = [[UIButton alloc] initWithFrame:CGRectMake(0,  UIScreen.mainScreen.bounds.size.height - 50, UIScreen.mainScreen.bounds.size.width, 50)];
+        _closeBtn.backgroundColor = [UIColor yellowColor];
+        [_closeBtn setTitle:@"Exit" forState:UIControlStateNormal];
+        [_closeBtn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+        _closeBtn.titleLabel.font = [UIFont systemFontOfSize:12];
+        _closeBtn.layer.cornerRadius = 24.;
+        [_closeBtn addTarget:self action:@selector(exit) forControlEvents:UIControlEventTouchUpInside];
+    }
 
+    return _closeBtn;
+}
 @end

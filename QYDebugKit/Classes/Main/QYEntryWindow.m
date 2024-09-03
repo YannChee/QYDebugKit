@@ -81,6 +81,12 @@
     self.hidden = NO;
 }
 
+- (void)close {
+    self.hidden = YES;
+    [self.rootViewController.view removeFromSuperview];
+    [QYHomeWindow.shareInstance hide];
+}
+
 - (void)showClose:(NSNotification *)notification{
     [_entryBtn removeTarget:self action:@selector(showClose:) forControlEvents:UIControlEventTouchUpInside];
     [_entryBtn addTarget:self action:@selector(closePluginClick:) forControlEvents:UIControlEventTouchUpInside];

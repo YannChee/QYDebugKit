@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 // 定制位置
 - (instancetype)initWithStartPoint:(CGPoint)startingPosition;
 - (void)show;
-
+- (void)close;
 @end
 
 NS_ASSUME_NONNULL_END

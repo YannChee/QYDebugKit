@@ -61,7 +61,8 @@
     QYNavigationController *nav = (QYNavigationController *)self.rootViewController;
 //    [nav.childViewControllers performSelector:@selector(viewDidAppear:)];
     for (UIViewController *vc in nav.childViewControllers) {
-        [vc viewDidAppear:NO];
+//        [vc viewDidAppear:NO];
+        [vc endAppearanceTransition]; // 在视图出现后调用
     }
 
 }

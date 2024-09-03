@@ -20,8 +20,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (nonnull instancetype)shareInstance;
 
-- (void)initDenugSDKWithStartingPosition:(CGPoint)position completion:(void(^)(void))completion;
 
++ (NSArray<UIButton *> *)customFunctionButtons;
+
+- (void)initDenugSDKWithStartingPosition:(CGPoint)position customFunctionButtons:( NSArray<UIButton *> * _Nullable )btnsArr completion:(void(^)(void))completion;
+- (void)exit;
 
 /** 打印日志 */
 - (void)logEventName:(NSString *)eventName paramDict:(NSDictionary *)paramDict;
