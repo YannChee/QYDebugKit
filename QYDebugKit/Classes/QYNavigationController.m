@@ -13,13 +13,7 @@
     [super viewDidAppear:animated];
     
     // 检查当前的视图控制器是否是根视图控制器
-    if (self.topViewController == self.viewControllers.firstObject) {
-        // 如果是根视图控制器，隐藏导航栏
-        [self setNavigationBarHidden:YES animated:NO];
-    } else {
-        // 否则，显示导航栏
-        [self setNavigationBarHidden:NO animated:NO];
-    }
+    [self updateNavigationBarVisibility];
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {

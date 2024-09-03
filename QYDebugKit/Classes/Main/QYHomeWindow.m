@@ -59,7 +59,10 @@
    
     self.hidden = NO;
     QYNavigationController *nav = (QYNavigationController *)self.rootViewController;
-//    [nav.childViewControllers performSelector:@selector(viewDidAppear:)];
+    [nav beginAppearanceTransition:YES animated:YES];
+    // 更新 UI 以反映视图控制器的状态
+    [nav endAppearanceTransition];
+    
     for (UIViewController *vc in nav.childViewControllers) {
 //        [vc viewDidAppear:NO];
         [vc endAppearanceTransition]; // 在视图出现后调用
@@ -75,9 +78,12 @@
 
     self.hidden = YES;
     QYNavigationController *nav = (QYNavigationController *)self.rootViewController;
-//    [nav.childViewControllers performSelector:@selector(viewDidDisappear:)];
+    [nav beginAppearanceTransition:YES animated:YES];
+    // 更新 UI 以反映视图控制器的状态
+    [nav endAppearanceTransition];
+
     for (UIViewController *vc in nav.childViewControllers) {
-        [vc viewDidDisappear:NO];
+        [vc endAppearanceTransition]; // 在视图出现后调用
     }
 }
 
