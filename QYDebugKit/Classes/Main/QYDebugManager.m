@@ -59,7 +59,8 @@ static NSArray<UIButton *> *customFuctionButtonsArr;
         return;
     }
     self.isInitialized = YES;
-    completion();
+    
+    !completion ?: completion();
 
     [self initEntry:self.startingPosition];
   
