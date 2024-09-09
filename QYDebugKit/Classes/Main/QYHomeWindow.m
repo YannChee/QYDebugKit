@@ -96,12 +96,12 @@
             NSFontAttributeName:[UIFont systemFontOfSize:18]
         };
         [nav.navigationBar setTitleTextAttributes:attributesDic];
-        _nav = nav;
+        _rootNavigationController = nav;
         
         self.rootViewController = nav;
     }else{
         self.rootViewController = nil;
-        _nav = nil;
+        _rootNavigationController = nil;
     }
     
 }

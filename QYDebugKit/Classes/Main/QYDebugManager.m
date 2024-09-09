@@ -9,6 +9,7 @@
 #import "QYEntryWindow.h"
 #import "QYLogEventManager.h"
 #import <YYModel/YYModel.h>
+#import "QYHomeWindow.h"
 
 
 static NSArray<UIButton *> *customFuctionButtonsArr;
@@ -74,6 +75,9 @@ static NSArray<UIButton *> *customFuctionButtonsArr;
     return customFuctionButtonsArr;
 }
 
+- (UINavigationController *)debugNavigationController {
+    return QYHomeWindow.shareInstance.rootNavigationController;
+}
 
 #pragma mark - log
 - (void)logEventName:(NSString *)eventName paramDict:(NSDictionary *)paramDict {

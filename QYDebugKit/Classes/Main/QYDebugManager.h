@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic, strong) QYLogEventManager *logEventManager;
 
+@property(nonatomic, weak, readonly) UINavigationController *debugNavigationController;
 
 + (nonnull instancetype)shareInstance;
 

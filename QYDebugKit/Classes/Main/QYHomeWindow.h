@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface QYHomeWindow : UIWindow
 
-@property (nonatomic, strong) UINavigationController *nav;
+@property (nonatomic, strong) UINavigationController *rootNavigationController;
 
 + (instancetype)shareInstance;
 
