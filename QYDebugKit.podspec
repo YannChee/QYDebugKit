@@ -39,7 +39,8 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'FLEX'
-   s.dependency 'YYModel'
-   
+  # 指定 FLEX 和 YYModel 只在 Debug 配置下有效
+  s.dependency 'FLEX', :configurations => ['Debug']
+  s.dependency 'YYModel', :configurations => ['Debug']
+  
 end
